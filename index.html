@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock-Paper-Scissor</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="bootstrap.min.css" type="text/css" />
+  </head>
+  <body>
+    <section class="game">
+      <div class="score">
+        <div class="player-score">
+          <h1>Player Score</h1>
+          <p>0</p>
+        </div>
+        <div class="bot-score">
+          <h1>Bot Score</h1>
+          <p>0</p>
+        </div>
+      </div>
+      <div class="start">
+        <h1>Rock Paper Scissor</h1>
+        <button class="btn btn-success">Let's Play</button>
+      </div>
+      <div class="match fadeOut">
+        <h2 class="winner">Choose an option</h2>
+        <div class="hand">
+          <img
+            src="./assets/rock.png"
+            class="player-hand img-responsive"
+            alt=""
+          />
+          <img src="./assets/rock.png" class="bot-hand img-responsive" alt="" />
+        </div>
+        <div class="option">
+          <button class="rock btn btn-success">rock</button>
+          <button class="paper btn btn-success">paper</button>
+          <button class="scissor btn btn-success">scissors</button>
+        </div>
+        <!--div class="exit">
+          <button>Exit</button>
+        </div-->
+      </div>
+    </section>
+    <script src="game.js"></script>
+  </body>
+</html>
